@@ -8,7 +8,7 @@ Test Teardown     Stop All Video Recordings
 
 ** Test Cases **
 TC_WEATER_001
-    @{testdata}     Read Csv File To List       assignment_csv.csv
+    @{testdata}     Read Csv File To List       ${CURDIR}/assignment_csv.csv
     ${list_length}  Get Length      ${testdata}
     @{temp_list}    Create List    
     #log to console  ${list_length}      
