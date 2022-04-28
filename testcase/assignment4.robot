@@ -1,7 +1,7 @@
 ** Settings **
 Resource    ${CURDIR}/../import.robot
 
-Suite Setup             
+Suite Setup         Setup chromedriver             
 Suite Teardown    Close Browser
 Test Setup        Start Video Recording     name=${TEST NAME}
 Test Teardown     Stop All Video Recordings
