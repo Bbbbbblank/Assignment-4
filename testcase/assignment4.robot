@@ -14,3 +14,7 @@ TC_WEATER_001
     #log to console  ${list_length}      
     #log to console  ${testdata}
     Open Browser    https://weather.com/   safari 
+
+TC_WEATER_002
+    Open Browser    https://weather.com/   gc 
+
