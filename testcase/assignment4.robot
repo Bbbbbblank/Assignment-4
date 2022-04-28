@@ -16,5 +16,6 @@ TC_WEATER_001
     Open Browser    https://weather.com/   safari 
 
 TC_WEATER_002
-    Open Browser    https://weather.com/   gc 
+
+    Open Browser    https://weather.com/   chrome
 
