@@ -13,4 +13,4 @@ TC_WEATER_001
     @{temp_list}    Create List    
     #log to console  ${list_length}      
     #log to console  ${testdata}
-    Open Browser    https://weather.com/   gc 
+    Open Browser    https://weather.com/   safari 
