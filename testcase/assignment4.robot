@@ -16,7 +16,7 @@ TC_WEATER_001
     Open Browser    https://weather.com/   safari 
 
 TC_WEATER_002
-
+    Append To Environment Variable    PATH    ${EXECDIR}/bin/
     Open Browser    https://weather.com/   chrome
 
 TC_WEATER_003
