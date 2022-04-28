@@ -18,9 +18,3 @@ Select degree
     Wait Until Element Is Visible       //span[@class='LanguageSelector--unitDisplay--23xY5']
     Click Element           //span[@class='LanguageSelector--unitDisplay--23xY5']
     Click Element           //span[contains(text(),${degree})]
-
-
-Setup chromedriver
-  Set Environment Variable  webdriver.chrome.driver  ${CURDIR}../bin/chromedriver 
-
-
