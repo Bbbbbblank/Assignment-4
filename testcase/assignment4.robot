@@ -19,3 +19,9 @@ TC_WEATER_002
 
     Open Browser    https://weather.com/   chrome
 
+TC_WEATER_003
+
+    Open Browser    https://weather.com/   ff
+
+
+
